@@ -1,0 +1,477 @@
+.float-left{
+    float:left !important;
+}
+
+body{
+	color: #666;
+        
+}
+
+.logo{
+	padding-left: 0px;
+}
+
+#header{
+	margin-top: 20px;
+	height: 140px;
+	position: relative;
+}
+
+#header h3{ 
+	font-size: 20px;
+	text-align: center;
+}
+
+.nav-row{
+	margin-top: -34px;
+	z-index: 2;
+}
+
+nav{
+	height: 65px;
+	background: #006600;
+	border-radius: 3px;
+} 
+
+nav a{
+	color: #fff;
+}
+
+nav a:hover{
+	color: #669966 !important;
+	text-decoration: none;
+}
+
+nav ul{
+	margin-top: 22px
+}
+
+nav li{
+	display: inline;
+	list-style-type: none;
+	padding-bottom: 22px;
+	padding-right: 20px;
+	transition: 0.4s;
+}
+
+nav li:hover{
+	border-bottom: 3px solid #fff;
+}
+
+.profile-links{
+	margin-top: 18px;
+}
+
+.btn-default{
+	background: rgba(0,0,0,0);
+	color: #fff;
+	font-size: 11px;
+}
+
+#profile-link{
+	font-size: 11px;
+
+}
+
+.profile-photo-icon{
+	width:40px;
+	height: 40px; 
+	border-radius: 100%;
+	border: 1px solid #669966;
+	float: right;
+	margin-top: -5px;
+}
+
+.banner{
+	height: 700px;
+	background-image: url('images/background-image.jpg');
+	margin-top: -34px;
+	z-index: 1;
+}
+
+.banner-row{
+	margin-top: -34px;
+}
+
+
+.banner-texts{
+	color: #fff;
+	margin-top: 150px;
+}
+
+.banner-text{
+	background-color: rgba(102,153,102,.7);
+	padding: 10px;
+	border-radius: 3px;
+}
+
+.banner-texts h2{
+	font-size: 25px;
+	width: 330px;
+}
+
+.banner-texts h1{
+	font-size: 30px;
+	font-weight: bolder;
+	width: 380px;
+	margin-top: -5px;
+}
+
+.info{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	height: 230px;
+	margin-top: 185px;
+	color: #fff;
+}
+
+.info1{
+	background-color: #336633;
+}
+.info2{
+	background-color: rgba(102,204,102,.9);
+	//background-image: url('images/info-bg2.jpg');
+}
+.info3{
+	background-color: rgba(153,204,153,.9);
+	//background-image: url('images/info-bg2.jpg');
+}
+
+.info h3{
+	font-size: 20px;
+	border-left: 5px solid #fff;
+	padding-left: 15px;
+	margin-top: 30px;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+.info h6{
+	font-size: 15px;
+	margin-left: 30px;
+	margin-right: 30px;
+	padding-bottom:10px;
+	padding-top: 10px; 
+	border-bottom: 1px solid #ccffcc;
+}
+
+.footer{
+	height: 70px;
+	background-color: #006600;
+	border-radius: 3px;
+	text-align: center;
+}
+
+.footer p{
+	margin-top: 25px;
+	color: #999999;
+}
+
+/* LOG IN PAGE STYLE*/
+
+.login-form{
+	border-top-left-radius: 5px !important;
+	border-top-right-radius: 5px !important;
+	width: 380px;
+	height: 320px;
+	margin-top: 30px;
+	margin-left: 15px;
+	color: #fff;
+	background: #fff;
+	box-shadow: 1px 0px 5px rgba(0,0,0,.3);
+}
+
+.login-form div{
+	width: 300px;
+	margin-left: 40px;
+	margin-right: 40px; 
+}
+.login-form h3{
+	font-size: 20px;
+	margin:0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #006600;
+	text-align: center;
+}
+
+.form-group{
+	margin-top: 30px;
+}
+
+.login-form .form-control, .forgotpassword-form .form-control{
+	height: 50px;
+	border-radius: 3px !important;
+	border: 1px solid  #006600;
+	margin-bottom: 10px;
+}	
+
+.login-form .btn-primary{
+	width: 100%;
+	height: 40px;
+	background: #006600;
+	margin-top: 10px;
+}
+
+.login-form p{
+		margin-top: 10px;
+}
+
+.login-form p a{
+	color: #666;
+}
+
+.banner-texts P{
+	font-size: 18px;
+}
+
+nav a{
+ 	color: #669966 !important;
+}
+
+#forgotpassword .modal-footer .btn-primary{
+	background: #006600;
+}
+
+.forgotpassword-form{
+	width: 100%;
+}
+
+.modal-header{
+	background: #006600;
+	color: #fff;
+}
+
+
+/* PAGE CONTENT */
+
+.page-header{
+	text-align: center;
+	font-size: 35px;
+	font-weight: bolder;
+	background: #ccffcc;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-top: 10px;
+	width: 100%;
+	border-radius: 3px;
+}
+
+.main-content{
+	border: 1px solid #ccffcc;
+	//height: 500px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	float: left;
+}
+
+.main{
+	padding-left: 0px;
+}
+
+.sidebar{
+	border: 1px solid #ccffcc;
+	//height: 500px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	//height: 600px;
+	background: #fafafa;
+}
+
+
+/* REGISTER HEALTH WORKER PAGE */
+
+.main-content .form{
+	margin-left: 20px;
+}
+
+.main-content h3{
+	padding-left: 15px;
+	font-size: 25px;
+	border-left: 5px solid #006600;
+}
+
+.form-fields-group{
+	margin-top: 25px;
+}
+
+.form-fields-group p input{
+	color: #333;
+}
+
+.form-fields-group p .input-field{
+	border:0px;
+	border-bottom: 1px solid #cccccc;
+	margin-left: 10px;
+	padding-bottom: 0px;
+	width: 70%;
+}
+
+.form-fields-group p select{
+	height: 40px;
+	padding-left: 10px;
+	margin-left: 10px;
+	border: 1px solid #99cc99
+}
+
+.form-fields-group .submit-button{
+	color: #fff;
+	width: 145px;
+	height: 50px;
+	background: #006600;
+	border: 0px;
+	box-shadow: 1px 3px 2px rgba(0,0,0,.1);
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.sidebar .sidebar-main-content{
+	width: 230px;
+	margin:30px 50px;
+}
+
+.sidebar .sidebar-main-content h3{
+	font-size: 20px;
+	padding-left: 15px;
+	border-left: 5px solid #006600;
+	margin-bottom: 20px;
+}
+
+.sidebar .sidebar-main-content p{
+    float:left;
+    width: 100%;
+}
+
+.sidebar .profile-picture{
+	width: 100%;
+	height: 220px;
+	border:2px solid #ccffcc;
+	background: #cccccc;
+}
+
+.sidebar .signature{
+	width: 100%;
+	height: 60px;
+	border:2px solid #ccffcc;
+	background: #cccccc;
+}
+
+.sidebar input{
+	font-size: 14px;
+}
+
+.sidebar form{
+	margin-top: 20px;
+}
+
+.sidebar .btn{
+		background: #006600;
+}
+
+/* REGISTER CHILD */
+
+table{
+	width: 100%;
+	margin-top: 20px;
+}
+
+thead{
+	background: #006600;
+	color: #fff;
+	height: 40px;
+	font-size: 14px;
+}
+
+th{
+	padding-left: 15px;
+}
+
+table input{
+	width: 100%;
+}
+
+table tr td:nth-child(1){
+	width: 30%;
+}
+
+table tr td:nth-child(2){
+	width: 20%;
+}
+
+table tr td:nth-child(3){
+	width: 50%;
+}
+
+
+/* DEFAULTERS */
+
+.defaulters-list thead tr:first-child{
+	background:#666;
+}
+
+.defaulters-list thead tr:last-child{
+	background:white;color:#666;
+	font-size: 12px;
+}
+
+.defaulters-list tr td{
+	border-bottom: 1px solid #cccccc;
+	padding-bottom: 7px;
+	padding-top: 5px;
+}
+
+.figure-display{
+	border: 1px solid #ccffcc;
+	padding: 5px 10px;
+}
+
+/* BAR CHART */
+.bar-chart-sidebar .sidebar-main-content h3{
+	font-size: 18px;
+}
+
+.sidebar .indicator{
+	width:25px;
+	height: 25px;
+	border: 1px solid #ccffcc;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	background: red;
+	float: left;
+}
+
+.sidebar p{
+	float: left;
+}
+
+.bar-chart-sidebar .sidebar-main-content{
+	margin-left:30px;
+	margin-right:30px;
+        margin-bottom: 40px;
+	width: 280px;
+}
+
+/* IMMUNIZATION RECORD */
+.immunization-record-numbers{
+	border-left: 1px solid #ccffcc;
+	//padding-left: 10px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.immunization-record-numbers h6{
+	font-size: 20px;
+}
+
+.immunization-record-numbers span{
+	float: left;
+}
+
+.immunization-record-numbers .figures{
+	font-size: 35px;
+	color: #333;
+}
+
+.immunization-record-numbers .figures-per{
+	font-size: 16px;
+}
